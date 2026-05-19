@@ -45,7 +45,7 @@ func main() {
 		Salary:   1000,
 		Position: "Engineer",
 	}
-	fmt.Println(emp.Greet())     // promoted method
+	fmt.Println(emp.Greet()) // promoted method
 	fmt.Println(emp.Name, emp.Position)
 
 	// Anonymous struct

@@ -67,14 +67,14 @@ func main() {
 	fmt.Println("sum:", sum(1, 2, 3, 4, 5))
 
 	// Closure giữ trạng thái
-	counter := makeCounter() // counter là một closure, nó giữ tham chiếu đến biến count trong makeCounter 
+	counter := makeCounter() // counter là một closure, nó giữ tham chiếu đến biến count trong makeCounter
 	// Mỗi lần gọi counter(), nó sẽ tăng count và trả về giá trị mới, dù makeCounter đã kết thúc
 	fmt.Println(counter(), counter(), counter()) // 1 2 3
 
 	// defer — chạy khi hàm kết thúc, LIFO
 	// Dùng defer để đảm bảo tài nguyên được giải phóng, file được đóng, mutex được unlock, v.v.
 	// Các defer sẽ chạy theo thứ tự ngược lại với thứ tự chúng được gọi (Last In, First Out)
-	defer fmt.Println("defer 1 (chạy cuối)")
+	defer fmt.Println("defer 1")
 	defer fmt.Println("defer 2")
 	fmt.Println("main kết thúc")
 }

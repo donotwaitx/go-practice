@@ -33,8 +33,8 @@ func main() {
 	}
 
 	// Map cần được make trước khi dùng (nếu khai báo var)
-	var m map[string]int        // nil map — KHÔNG ghi được
-	m = make(map[string]int)    // giờ ghi được
+	var m map[string]int     // nil map — KHÔNG ghi được
+	m = make(map[string]int) // giờ ghi được
 	m["x"] = 1
 	fmt.Println("m:", m, "len:", len(m))
 
