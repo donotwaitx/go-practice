@@ -5,6 +5,7 @@ Repo học Go từ foundation. Code mẫu nằm trong `basics/` (foundation) và
 **Lộ trình:**
 1. [`basics/`](./basics) — foundation Go (12 bài, từ Hello World đến goroutines).
 2. [`data-structures/`](./data-structures) — 10 cấu trúc dữ liệu kinh điển (linked list → graph).
+3. [`web-basics/`](./web-basics) — web development với `net/http` (10 bài, từ HTTP server đến testing).
 
 ## Mục lục
 
