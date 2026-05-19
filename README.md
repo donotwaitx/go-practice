@@ -1,6 +1,10 @@
 # go-practice
 
-Repo học Go từ foundation. Code mẫu nằm trong `basics/`, mỗi chủ đề một file `main.go` chạy được độc lập.
+Repo học Go từ foundation. Code mẫu nằm trong `basics/` (foundation) và `data-structures/` (DS cơ bản), mỗi chủ đề một file `main.go` chạy được độc lập.
+
+**Lộ trình:**
+1. [`basics/`](./basics) — foundation Go (12 bài, từ Hello World đến goroutines).
+2. [`data-structures/`](./data-structures) — 10 cấu trúc dữ liệu kinh điển (linked list → graph).
 
 ## Mục lục
 
